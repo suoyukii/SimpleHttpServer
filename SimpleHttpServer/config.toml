@@ -1,0 +1,13 @@
+﻿root_dir = "html"
+is_https = false
+ip_list = [
+    # IPv4
+    "127.0.0.1",
+    #    "127.0.0.1:80",
+    # IPv6
+    #    "[::1]",
+    #    "[::1]:80",
+    # Domain name
+    #    "localhost",
+    #    "localhost:80",
+]

@@ -1,0 +1,7 @@
+﻿*{margin:0;padding:0}
+body{width:48vw;height:100vh;overflow-y:hidden;margin:0 auto}
+hr{margin:2vh 0;border:#DDD solid 1px}
+h1{margin-top:2vh;color:#444}
+img,audio,video{position:relative;left:50%;transform:translateX(-50%)}
+img{height:20vh}
+video{height:40vh}
