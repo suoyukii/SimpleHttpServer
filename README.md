@@ -1,4 +1,4 @@
-<h1 align="center">SimpleHTTPserver</h1>
+<h1 align="center">SimpleHttpServer</h1>
 <h4 align="center">Simple HTTP server in CSharp</h4>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 ---
 
-SimpleHTTPServer is a lightweight http server software.
+SimpleHttpServer is a lightweight http server software.
 
 # Features
 
