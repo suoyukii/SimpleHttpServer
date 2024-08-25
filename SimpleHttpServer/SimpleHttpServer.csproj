@@ -8,6 +8,8 @@
         <AssemblyName>simplehttpserver</AssemblyName>
         <Authors>suoyukii</Authors>
         <Copyright>Copyright © 2024 suoyukii</Copyright>
+        <PackageProjectUrl>https://github.com/suoyukii/SimpleHttpServer</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/suoyukii/SimpleHttpServer?tab=MIT-1-ov-file</PackageLicenseUrl>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
