@@ -1,42 +1,52 @@
-<h1 align="center">SimpleHttpServer</h1>
-<h4 align="center">Simple HTTP server in CSharp</h4>
+<h1 align="center">Simple HTTP Server</h1>
+<h4 align="center">Simple HTTP server in .NET 9</h4>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
-    <img src="http://img.shields.io/badge/License-MIT%20License-1e90ff.svg"/>
+    <img src="http://img.shields.io/badge/License-MIT-1e90ff?style=for-the-badge"/>
   </a>
   <a href="https://dotnet.microsoft.com">
-    <img src="http://img.shields.io/badge/.Net-8.0-1e90ff.svg"/>
+    <img src="http://img.shields.io/badge/.NET-9.0-1e90ff?style=for-the-badge"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="#features">Features</a> ·
-  <a href="#install">Install</a> ·
-  <a href="#usage">Usage</a>
+  <a href="/#features">
+    <img src="http://img.shields.io/badge/Features-1e90ff?style=for-the-badge"/>
+  </a>
+  <a href="/#install">
+    <img src="http://img.shields.io/badge/Install-1e90ff?style=for-the-badge"/>
+  </a>
+  <a href="/#usage">
+    <img src="http://img.shields.io/badge/Usage-1e90ff?style=for-the-badge"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/English-lightgray?style=for-the-badge"/>
+  <a href="README/zh-cn.md">
+    <img src="https://img.shields.io/badge/简体中文-1e90ff?style=for-the-badge"/>
+  </a>
 </p>
 
 ---
 
-SimpleHttpServer is a lightweight http server software.
+SimpleHttpServer is a lightweight HTTP server software.
 
-# Features
+## ✨ Features
 
 - HTTP/S Web Server
-- HTTP request/response dump
-- Configurable IP address and listening port, configured via `config.toml`
-- Configurable HTTP server, configured via `config.toml`
-- Configurable URL routing, configured via `url_routing.toml`
-- Configurable mine type, configured via `mine_type.toml`
+- HTTP `Request` / `Response` dump
+- Configurable `IP Address` and `Listening Port`, configured via `config.toml`
+- Configurable `HTTP Server`, configured via `config.toml`
+- Configurable `URL Routing`, configured via `url_routing.toml`
+- Configurable `MINE Type`, configured via `mine_type.toml`
 
-# Install
+## ✨ Install
 
-SimpleHTTPserver requires **.Net 8.0** to run successfully.
-
-- [Dowload .Net 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/latest/runtime)
 - [Dowload SimpleHTTPServer](https://github.com/suoyukii/SimpleHTTPServer/releases)
 
-# Usage
+## ✨ Usage
 
 To run simply open `simplehttpserver.exe`.
 
@@ -44,7 +54,7 @@ Close the window of `simplehttpserver.exe` to stop it from running.
 
 - Run the following command on the console.
 
-```shell
+```sh
 simplehttpserver
 ```
 
@@ -52,14 +62,14 @@ Open a browser and enter the IP address configured by `ip_list` in `config.toml`
 
 Below is the default IP address set in `config.toml`, which can be quickly previewed by clicking on the jump when SimpleHTTPServer is turned on.
 
-- IPv4 default IP address
+- IPv4 default IP address.
 
-```url
+```sh
 http://127.0.0.1
 ```
 
-- IPv6 default IP address
+- IPv6 default IP address.
 
-```url
+```sh
 http://[::1]
 ```

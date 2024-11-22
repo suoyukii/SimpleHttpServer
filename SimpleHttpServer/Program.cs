@@ -14,6 +14,7 @@ foreach (var ip in ip_list)
         false => "http://"
     } + ip + "/");
 var root_dir = Directory.GetCurrentDirectory() + "/" + config.root_dir;
+Console.WriteLine("The HTTP server has been started.");
 server.Start();
 
 while (true)
